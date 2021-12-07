@@ -1,0 +1,117 @@
+@media only screen and (max-width: 1024px){
+.eventList {   padding-top: 20px; padding-left: 15px;}
+.eventList>h4 {height: auto; font-size: 20px;}
+.navbar-collapse.show {height: 100%; left: 0; transition: left .4s ease-in-out;}
+.custom-header .navbar-collapse {position: fixed; left: 0; top: 0; width: calc(100% - 75px); background: #000; z-index: 9; padding: 25px; height: 470px;}
+li.nav-item {margin-right: 0;}
+.navbar li.nav-item .nav-link { width: 100%; text-align: left; height: 44px; line-height: 44px; font-size: 18px; font-weight: 600;}
+.navbar li.nav-item .nav-link {color: #FFF; padding: 0; border-bottom: 1px solid transparent;}
+.navbar .nav-item:hover .nav-link {color: #fff;}
+.chip svg { background: #fff;}
+.chip{ background: #ffffff; color: #000;}
+.chip :hover { background: #ffffff; color: #000;}
+.navbar-nav .nav-item.btn a{background: #000000; color: #fff; }
+.navbar-nav .nav-item.btn a:hover{color: #fff; }
+.navbar li.nav-item.rightLinks a{ height: 40px;}
+.navbar .nav-item:hover .nav-link {color: #fff;}
+.mt-4 {margin-top: 1.5rem!important; width: 158px; justify-content: center; margin: 0px 100px;}
+ul#myTab {margin: 18px;}
+.cardSearchBox{ margin-right: 20%;}
+.priceForm {text-align: right; margin: 15px 90px;}
+.secCrewBg h2 { text-align: center;}
+.faqContact li:first-child{width: auto;}
+.faqContact{ display: block; text-align: center;}
+.secCrewBg h2 {z-index: 7!important;}
+.searchBox {width:200px !important; margin: 0 75px;}
+.aboutTimeline>div{display: block;}
+.timelineContent {text-align: center;}
+.timelineBox{ width: 75%;}
+.col-xl-4.col-lg-4 {margin: 20px 0;}
+.journalrightBox h5{ font-size: 15px;}
+.journalrightBox p{ font-size: 12px;}
+a.btn.btnRound.btn-success.text-uppercase.waves-effect.waves-light {margin: 0 35px;}
+.navbar-nav .nav-item.btn a {background: #ffffff; color: #000; width: 150px; text-align: center; border-radius: 50px; margin-bottom: 12px;}
+.searchItem {width: auto;}
+}
+
+
+@media only screen and (max-width: 280px){
+    .mt-4 {margin-top: 1.5rem!important; width: 100%; justify-content: center; margin: 0;} 
+   .dashboardInfo .ulDetailsUl>li{     width: 100%; text-align: center;}
+}
+
+@media only screen and (max-width: 360px){
+    .calendarHeader .btn-group {width: 277px !important;}
+    .homeBanner h3 {font-size: 21px!important}  
+}
+
+@media only screen and (max-width: 480px){
+.cal-row-fluid.cal-row-head {font-size: 8px; }
+
+}
+
+@media only screen and (max-width: 575px){
+    .navbar-brand svg {width: 85px;}
+    h4 {font-size: 1.15rem;}
+   
+
+
+    
+}
+
+@media only screen and (max-width:767px){
+    .wrapper{width:100%;overflow:hidden ;}
+    .homeBanner * {color: #FFF;justify-content: center;}
+    .navbar-toggler {width: 30px; height: 30px;}
+    .navbar .navbar-toggler {padding: 0; border-radius: 0; box-shadow: none;}
+    .navbar-toggler .navbar-toggler-icon:before {top: -10px;}
+    .navbar-toggler .navbar-toggler-icon:after {top: 10px;}
+    .homeTab ul li { margin: 0 0; height: 100%; display: flex; align-items: center;}
+    form {margin: 19px 10px;}
+    .socialIcons {color: #000; margin: 10px;}
+    .socialLinks {display: flex; justify-content: center;}
+   .footer h6 {margin: 12px 0;}
+    .footer {text-align:center;}
+    .appImgs {display: flex; justify-content: center; margin: 10px;}
+    .appImgs img {margin: 0 10px;}
+    .footer-link {display: flex; flex-wrap: wrap; padding: 10px;}
+    .footer-link li { width: 50%; line-height: 1; margin-bottom: 15px; padding: 0 10px;}
+    img.img-fluid.mb-4 {width: 84px; margin-left: 137px; margin-right: 150px;}
+    a.btn:not([href]):not([tabindex]) { color: #fff; display: inline-block; margin: 10px;}
+    .secApp {padding-top: 25px; height:306px; display: flow-root;}
+    .secApp .row {display: flex; flex-direction: column-reverse !important;}
+    .secApp .appImgs { justify-content: center;}
+    .secApp .col-sm-7 {text-align: center;}
+    .appImgs { margin-top: 0!important;}
+    .secApp .col-sm-5 { width: 191px; margin-top: 10px;}
+    .owl-stage-outer .test_img {width: 100px;height: 200px; margin: 0 67px;}
+    .homeBanner h3{font-size: 25px;}
+    .owl-item .item { width: 160px!important; margin-right: 20px!important;}
+    .homeTab .owl-item {width: 160px!important; margin-right: 20px;}
+    .seller-carousel.owl-carousel.owl-theme.owl-loaded.owl-drag .item { width: 370px !important;}
+    .calendarGroup { margin-bottom: 25px;}
+    .calendarHeader {text-align: center}
+    .calendarWrapper .col-md-8 {border-right: none;}
+    .copyright * {margin-bottom: 0;background: #000;}
+    .copyright2 {display: inline-flex;justify-content: flex-end; text-align: center;}
+    .calendarWrapper .col-md-8 {border-right: none; padding-right: 15px !important; padding-left: 15px ;}
+    .calMonths h3 {font-size: 21px;}
+    .cal-context .cal-month-box [class*="cal-cell"] {min-height: 30px;}
+    .cal-cell1.cal-cell {max-height: 45px;}
+    .cal-month-box .cal-row-fluid {max-height: 70px!important;}
+    .cal-month-box .cal-row-fluid:last-child {border-bottom: 1px solid #000 !important;}
+    .calendarWrapper {border: 1px solid #000;height: 800px;}
+    #sidebar.sticky{position: unset; width:100%;}
+    div#example_wrapper {overflow: scroll; width: 100%;}
+    .row.justify-content-between.align-items-center {text-align: center; margin-bottom: 10px;}
+    .main_content .col-lg-5.col-md-5 {margin-bottom: 10px;}
+    .cardHBottom a{ margin-left: 0px!important;}
+    .priceForm {text-align: right; margin: 15px 77px;}
+    .journalrightBox p {font-size: 10px;}
+    .searchBox{margin: auto;}
+    .sellerCarousel .sellerBoxImg {height: 150px;}
+    .mt-4 {margin-top: 1.5rem!important; width: 100%; justify-content: center; margin: 0 0px;}
+    .sec .owl-item {width: 150px !important;}
+    .dashboardInfo .ulDetailsUl>li { width: 100%; text-align: center; padding: 0 25px; margin:  10px;}
+    .ulDetailsUl {display: inline-grid; justify-content: center; align-items: center;}
+}

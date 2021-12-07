@@ -1,0 +1,38 @@
+{
+  "events": [{
+    "month": "3",
+    "day": "12",
+    "year": "2021",
+    "title": "Google",
+    "time": "Sep 10 - 10:20am",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "img" : "http://dev.betadelivery.com/CSEApp/img/card1.png"
+  },
+  {
+    "month": "3",
+    "day": "12",
+    "year": "2021",
+    "title": "Google2",
+    "time": "Sep 10 - 10:30am",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "img" : "http://dev.betadelivery.com/CSEApp/img/card2.png"
+  },
+  {
+    "month": "3",
+    "day": "9",
+    "year": "2021",
+    "title": "Envato",
+    "time": "Sep 10 - 11:40am",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "img" : "http://dev.betadelivery.com/CSEApp/img/card3.png"
+  },
+  {
+    "month": "3",
+    "day": "10",
+    "year": "2021",
+    "title": "Airbnb",
+    "time": "Sep 10 - 03:30pm",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "img" : "http://dev.betadelivery.com/CSEApp/img/card4.png"
+  }]
+}
