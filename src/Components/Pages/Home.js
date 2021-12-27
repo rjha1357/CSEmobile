@@ -34,6 +34,7 @@ export default class Home extends Component {
 
         const { userValues } = this.state;
         if (userValues) {
+            console.log(userValues?.users_id);
             Axios.get(API_BASE_URL + "api/recently-views/" + userValues?.users_id)
                 .then(({ data }) => {
                     // console.log(data);
@@ -42,6 +43,8 @@ export default class Home extends Component {
                     });
                 }).catch(err => console.log(err));
 
+                console.log(userValues.session_id);
+            // alert(userValues);
             Axios.get(API_BASE_URL + "api/watchlist/" + userValues?.users_id)
                 .then(({ data }) => {
                     // console.log(data);

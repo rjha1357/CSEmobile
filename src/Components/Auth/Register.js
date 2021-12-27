@@ -139,9 +139,15 @@ export default class Register extends Component {
                         if (data.status === "success") {
                             //toastrSuccess(data.message);
                             this.props.history.push("confirm-email");
-                            localStorage.setItem('username', data.username);
-                            localStorage.setItem('email', data.email);
-                            localStorage.setItem('user_id', data.user_id);
+                            localStorage.setItem("userData", JSON.stringify(data.user));
+                            // localStorage.setItem('username', data.username);
+                            // localStorage.setItem('email', data.email);
+                            // localStorage.setItem('users_id', data.user_id);
+                            window.sessionStorage.setItem("username", data.username);
+                            window.sessionStorage.setItem("email", data.email);
+                            window.sessionStorage.setItem("users_id", data.user_id);
+                            window.sessionStorage.setItem("session_id", data.session_id);
+                            // window.sessionStorage.getItem("key");  // to get item from storage
                         } else {
                             toastrWarning(data.message);
                         }

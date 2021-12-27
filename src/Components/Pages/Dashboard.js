@@ -4,7 +4,7 @@ import Header from '../Includes/Header';
 import Footer from '../Includes/Footer';
 import AuthService from '../Auth/Auth.service';
 // import { toastrWarning } from '../../Services/ToasterService';
-
+import { API_PATH_URL } from '../../Config/Config';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -28,6 +28,14 @@ export default class Dashboard extends Component {
             slideBy: 1,
             dots: false,
         };
+        // const bannerImage = userValues.banner_image;
+        // let img;
+        // if(bannerImage == null || bannerImage == ''){
+        //     img = `${API_PATH_URL}bannerImage.png`;
+        // }else{
+        //     img = `${API_PATH_URL}${userValues?.users_id}/${userValues?.banner_image}`;
+        // }
+
         return (
             <React.Fragment>
                 <Header pagename="NA" history={this.props.history} />
@@ -47,7 +55,8 @@ export default class Dashboard extends Component {
                                         <img src="./app-assets/img/pen_white.svg" alt="" />
                                     </div>
                                     <input type='file' />
-                                    <img src="./app-assets/img/innerseller.png" className="img-fluid uploadImgs" alt="" />
+                                   
+                                    <img src="./app-assets/img/sellerimg.png" className="img-fluid uploadImgs" alt="profile background" />
                                 </div>
                             </OwlCarousel>
                             <div className="userProfile">
@@ -55,7 +64,7 @@ export default class Dashboard extends Component {
                                     <img src="./app-assets/img/pen_white.svg" alt="" />
                                 </div>
                                 <input type='file' />
-                                <img className="userProfileImg uploadImgs" src="./app-assets/img/sellerUser.svg" alt="" />
+                                <img className="userProfileImg uploadImgs" src={`${API_PATH_URL}${userValues?.users_id}/${userValues?.profile_image}`} alt={userValues?.profile_image} />
                             </div>
                         </div>
                     </div>

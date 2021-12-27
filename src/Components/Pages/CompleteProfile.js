@@ -27,7 +27,7 @@ class CompleteProfile extends Component {
             zoom: 1,
             croppedAreaPixels: null,
             croppedImage: "./app-assets/img/sellerUser.svg",
-            openCropArea: false
+            openCropArea: false,
         }
     }
 
@@ -100,9 +100,10 @@ class CompleteProfile extends Component {
                 .then(({ data }) => {
                     this.setState({ loader: false });
                     if (data.status === "success") {
+                        console.log(data);
                         toastrSuccess(data.message);
                         this.props.history.push({
-                            pathname: '/info',
+                            pathname: '/membership-payment/'+ btoa(data.users_id),
                             state: { message: "Congratulations! Your registration is completed.Now you can login from the below link.", isDisplayLogin: true }
                         })
 

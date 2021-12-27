@@ -4,7 +4,7 @@ import { toastrSuccess, toastrWarning } from '../../Services/ToasterService';
 
 class AuthService {
 
-    noAuthRoutes = ['reset-link','complete-profile','login','register','forgot-password','info','confirm-email','intro','marketplace'];
+    noAuthRoutes = ['reset-link','membership-payment','complete-profile','login','register','forgot-password','info','confirm-email','intro','marketplace'];
 
     isAuthRoutes(pathname) {
         return !(this.noAuthRoutes.indexOf(pathname.split('/')[1]) !== -1 || pathname === '/')

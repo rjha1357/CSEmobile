@@ -1025,3 +1025,18 @@ button.toast-close-button {
   border-right: 1px solid #d8d8d8;
   text-align: center;
 }
+
+.paymentRadioBtn {
+  display: flex;
+  align-items: center;
+}
+
+.paymentRadioBtn input {
+  position: relative !IMPORTANT;
+  opacity: 1 !important;
+  margin: 0 10px;
+}
+
+.paymentRadioBtn [type="radio"]:not(:checked), .paymentRadioBtn [type="radio"]:checked {
+  pointer-events: auto !important;
+}

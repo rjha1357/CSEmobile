@@ -41,6 +41,7 @@ import SellingMethodEdit from "./Components/Pages/SellingMethodEdit";
 import CardPreview from "./Components/Pages/CardPreview";
 import AddASet from "./Components/Pages/AddSet";
 import AddABox from "./Components/Pages/AddBox";
+import MembershipPayment from "./Components/Pages/MembershipPayment";
 
 class App extends Component {
   constructor(props){
@@ -83,6 +84,7 @@ class App extends Component {
           <Route path="/videos" component={Videos} />
           <Route path="/account-setting" component={AccountSetting} />
           <Route path="/membership-plan" component={Membership} />
+          <Route path="/membership-payment/:user_id" component={MembershipPayment} />
           <Route path="/terms" component={Terms} />
           <Route path="/privacy-policy" component={PrivacyPolicy} />
           <Route path="/user-agreement" component={UserAgreement} />

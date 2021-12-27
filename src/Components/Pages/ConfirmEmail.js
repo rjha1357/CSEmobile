@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
 import { API_BASE_URL } from '../../Config/Config';
+import { toastrSuccess, toastrWarning } from '../../Services/ToasterService';
 
 export default class ConfirmEmail extends Component {
     
@@ -20,7 +21,7 @@ export default class ConfirmEmail extends Component {
             .then(({ data }) => {
                 console.log(data);
                 if (data.status === "success") {
-                    alert(data.message);
+                    toastrSuccess(data.message);
                     localStorage.clear();
                 } else {
                     alert("something went wrong");
